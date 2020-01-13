@@ -4,7 +4,7 @@ let messageOne = document.getElementById("message-one");
 let messageTwo = document.getElementById("message-two");
 let broughtBy = document.getElementById("brought-by");
 
-const imageArray = ['img/doggy.jpg', 'img/morty.jpg', 'img/panch.jpg'];
+const imageArray = ['img/doggy.jpg', 'img/morty.JPG', 'img/panch.JPG'];
 
 const randomizeImage = () => {
     let num = Math.floor(Math.random() * (imageArray.length));
